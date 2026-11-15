@@ -29,7 +29,7 @@ from webauthn.helpers.structs import (
 # ============================================================================
 # 配置区 (支持通过环境变量覆盖，适配本地无域名测试与阿里云/隧道部署)
 # ============================================================================
-DEFAULT_RP_ID = os.getenv("PASSKEY_RP_ID", "localhost")
+DEFAULT_RP_ID = os.getenv("PASSKEY_RP_ID", "myjustfun.fun")
 DEFAULT_RP_NAME = os.getenv("PASSKEY_RP_NAME", "SecTrade 证券终端 Passkey")
 APPLE_APP_ID = os.getenv("APPLE_APP_ID", "TEAMID1234.com.sectrade.passkeydemo")
 DB_PATH = Path(__file__).parent / "passkeys.db"

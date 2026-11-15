@@ -5,7 +5,7 @@
     <key>com.apple.developer.associated-domains</key>
     <array>
         <!-- 替换为你的公网测试隧道域名或正式域名，与服务端 RP_ID 保持一致 -->
-        <string>webcredentials:example-tunnel.trycloudflare.com</string>
+        <string>webcredentials:myjustfun.fun</string>
     </array>
 </dict>
 </plist>

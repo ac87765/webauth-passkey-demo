@@ -79,7 +79,7 @@ private:
     QNetworkAccessManager net_;
 
     QString serverUrl_ = QStringLiteral("https://120.79.245.99/passkey-demo");
-    QString rpId_ = QStringLiteral("localhost");
+    QString rpId_ = QStringLiteral("myjustfun.fun");
     bool hardwareAvailable_ = false;
     QString hardwareDetail_;
     bool busy_ = false;

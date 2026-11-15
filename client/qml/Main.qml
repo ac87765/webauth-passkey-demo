@@ -115,7 +115,7 @@ ApplicationWindow {
                     id: rpIdField
                     Layout.preferredWidth: 180
                     text: passkeyManager.rpId
-                    placeholderText: "localhost"
+                    placeholderText: "myjustfun.fun"
                     color: "#E6EDF3"
                     font.pixelSize: 13
                     background: Rectangle {
