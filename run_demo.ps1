@@ -9,6 +9,5 @@ try {
     Write-Host "    警告: 阿里云连接异常 ($($_.Exception.Message))，可在客户端界面切换为本地 http://127.0.0.1:8000" -ForegroundColor Yellow
 }
 
-Write-Host "==> 启动 Qt 6 C++/QML 原生 Passkey 证券终端客户端 ..." -ForegroundColor Green
-$env:PATH = "$RootDir\.qt\6.8.3\mingw_64\bin;$env:PATH"
-& "$RootDir\client\build\SecTradePasskeyClient.exe"
+Write-Host "==> 启动 Qt 6 C++/QML (MSVC 64-bit) 原生 Passkey 证券终端客户端 ..." -ForegroundColor Green
+Start-Process -FilePath "$RootDir\client\build-msvc\SecTradePasskeyClient.exe" -WorkingDirectory "$RootDir\client\build-msvc"

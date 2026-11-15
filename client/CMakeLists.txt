@@ -11,6 +11,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
+add_compile_options($<$<CXX_COMPILER_ID:MSVC>:/utf-8>)
+
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Network Qml Quick QuickControls2)
 
 set(PROJECT_SOURCES
