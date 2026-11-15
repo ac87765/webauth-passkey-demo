@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>com.apple.developer.associated-domains</key>
+    <array>
+        <!-- 替换为你的公网测试隧道域名或正式域名，与服务端 RP_ID 保持一致 -->
+        <string>webcredentials:example-tunnel.trycloudflare.com</string>
+    </array>
+</dict>
+</plist>
