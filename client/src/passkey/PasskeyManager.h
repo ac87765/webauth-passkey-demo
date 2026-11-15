@@ -78,7 +78,7 @@ private:
     std::unique_ptr<IPasskeyProvider> provider_;
     QNetworkAccessManager net_;
 
-    QString serverUrl_ = QStringLiteral("http://127.0.0.1:8000");
+    QString serverUrl_ = QStringLiteral("https://120.79.245.99/passkey-demo");
     QString rpId_ = QStringLiteral("localhost");
     bool hardwareAvailable_ = false;
     QString hardwareDetail_;
