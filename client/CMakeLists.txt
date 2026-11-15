@@ -47,7 +47,7 @@ target_link_libraries(SecTradePasskeyClient PRIVATE
 
 if(WIN32)
     target_link_libraries(SecTradePasskeyClient PRIVATE user32)
-    set_target_properties(SecTradePasskeyClient PROPERTIES WIN32_EXECUTABLE FALSE)
+    set_target_properties(SecTradePasskeyClient PROPERTIES WIN32_EXECUTABLE TRUE)
 elseif(APPLE)
     find_library(AUTH_SERVICES_LIB AuthenticationServices REQUIRED)
     find_library(FOUNDATION_LIB Foundation REQUIRED)
